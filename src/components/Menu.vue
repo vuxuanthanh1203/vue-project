@@ -1,6 +1,6 @@
 <template>
   <!-- Start Navbar -->
-  <div class="aside d-flex flex-column flex-row-auto">
+  <div class="aside aside-left aside-fixed d-flex flex-column flex-row-auto">
     <!-- Start Brand -->
     <div class="brand flex-column-auto">
       <div class="brand flex-column-auto mx-auto">
@@ -97,7 +97,16 @@ export default {
   padding: 10px 0 !important;
 }
 
+/* .aside-fixed {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 98;
+} */
+
 .aside {
+  height: 100vh;
   background-color: #1e1e2d;
 }
 </style>
